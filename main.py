@@ -50,7 +50,7 @@ def configurar_pagina():
     #CAMBIAR NOMBRE DE PESTAÑA
     st.set_page_config("Mi chat AI")
     #AGREGAMOS UN TITULO
-    st.title("Claudio")
+    st.title("Amarildo")
     #AGREGAR SIDEBAR
     st.sidebar.title("Sidebar de modelos")
     m = st.sidebar.selectbox("Modelos", MODELOS, index = 0)
